@@ -4,10 +4,8 @@
 
 using namespace std;
 
-
 class Battle {
 private:
-
     /*
     * Static members: round variable is declared as static, meaning it is
     * shared among objects of the class and can be accessed without creating
