@@ -4,6 +4,7 @@
 
 using namespace std;
 
+// Lion inherits off Animal class
 class Lion : public Animal {
 private:
 	/*
@@ -14,7 +15,10 @@ private:
 	int strength;
 
 public:
+	// Initialising name and strength
 	Lion(string name, int strength);
+	// Overriden function, for Animal as a pointer funciton
 	void attack(Animal* other) override;
+	// Attack, taking Weapom pointer as a param
 	void attack(Weapon* weapon);
 };

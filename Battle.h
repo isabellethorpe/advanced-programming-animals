@@ -38,9 +38,13 @@ private:
 
 public:
 
+    // Constructor to inialise animals, weapons and output functions
     Battle(Animal* player1, Animal* player2, Weapon* weapon1, Weapon* weapon2, OutputFunc outputFunc);
+
+    // Fight method
     void fight();
 
+    // Gets and sets players
     Animal* getPlayer1();
     Animal* getPlayer2();
 };

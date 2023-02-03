@@ -7,6 +7,7 @@ using namespace std;
 
 class Animal {
 protected:
+    // Animal constructor
     string name;
 
 public:
@@ -30,6 +31,8 @@ public:
     */
     virtual void attack(Weapon* weapon) {}
 
+    // Returns health
     int getHealth();
+    // Returns name
     string getName();
 };
